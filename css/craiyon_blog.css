@@ -1,0 +1,121 @@
+@media (max-width: 600px) {
+    .top-img{
+        margin-top: 60px;
+    }
+    #whole{
+        background-color: blue;
+    }
+    .title_name{
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 50px;
+        background-color: blue;
+        background-color: transparent;
+        font-family: 'Lora', serif;
+    }
+
+    .title_name .credits{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+    .abstract{
+        padding: 10px;
+        font-size: 20px;
+        color: gray;
+    }
+
+    .content{
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .text-box{
+        margin-top: 10px;
+        background-color: rgb(212, 212, 212);
+        padding: 5px;
+        border: solid 2px black;
+        border-radius: 10px;
+    }
+    .content img{
+        width: 100%;
+        border: 5px solid red;
+        border-radius: 15px;
+    }
+    .footer{
+        background-color: rgb(69, 199, 255);
+        height: 50px;
+        font-size: 20px;
+    }
+    .fa-brands, .fa-solid{
+        color: rgb(49, 48, 48);
+        padding: 18px;   
+    }
+    
+}
+@media (min-width:600px){
+    
+.top-img{
+    display: none;
+}
+#body_article{
+    margin-top: 150px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.title_name{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 50px;
+    background-color: blue;
+    background-color: transparent;
+    font-family: 'Lora', serif;
+}
+
+.title_name .credits{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.abstract{
+    padding: 10px;
+    font-size: 20px;
+    color: gray;
+}
+.card_{
+    background-color: #ffffff;
+    border: solid 5px saddlebrown;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.content{
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-box{
+    margin-top: 10px;
+    background-color: rgb(244, 222, 222);
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.content img{
+    width: 100%;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+.footer{
+    background-color: rgb(69, 199, 255);
+    height: 30px;
+    font-size: 20px;
+}
+.fa-brands, .fa-solid{
+    color: rgb(49, 48, 48);
+    padding: 18px;   
+}
+}

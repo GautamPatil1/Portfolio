@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neural Network</title>
+    <link rel="shortcut icon" target="_blank" href="/favicon_io/favicon-32x32.png" type="image/x-icon" style="border: none;">
+    <link rel="stylesheet" target="_blank" href="/css/ai_.css">
+    <link target="_blank" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" target="_blank" href="https://fonts.googleapis.com">
+    <link rel="preconnect" target="_blank" href="https://fonts.gstatic.com" crossorigin>
+    <link target="_blank" href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link target="_blank" href="https://fonts.googleapis.com/css2?family=Aboreto&family=Lora:wght@200&display=swap" rel="stylesheet">
+    <link target="_blank" href="https://fonts.googleapis.com/css2?family=Aboreto&family=Lora:wght@200&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" target="_blank" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" target="_blank" href="/html/portfolio.html"><img src="/favicon_io/android-chrome-512x512.png" alt="" style="background-color: transparent; height:35px;"></a><span class="project-txt">Gautam Patil</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" target="_blank" href="/html/portfolio.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" target="_blank" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="/html/articles.html" class="nav-link active">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" href="#contact" class="nav-link active">Contanct</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="top-img">
+      <img src="/images/neural_network_panaroma.jpg" alt="">
+    </div>
+    
+    <div class="content">
+      <div class="title">
+        <b> Introduction to Artificial Neural Network</b>
+      </div>
+
+      <div class="credit">
+        <p>Gautam Patil | August 2022</p>
+      </div>
+      
+      <hr class="border border-primary">
+
+      <div class="card_">
+        <div class="question">
+          <h4>What are Neural Networks?</h4>
+        </div>
+        <div class="answer">
+          <p>Neural networks are set of algorithms inspired by the functioning of human brian. Generally when you open your eyes, what you see is called data and is processed by the Nuerons(data processing cells) in your brain, and recognises what is around you. That's how similar the Neural Networks works. They takes a large set of data, process the data(draws out the patterns from data), and outputs what it is.</p>
+        </div>
+      </div>
+
+      
+        <div class="question">
+          <h4>Components of Neural Network</h4>          
+        </div>
+        <h6>Neuron</h6>
+        <div class="answer">
+          
+          <p>Biological neurons transmit information with a mechanism similar to Morse Code. It receives electrical signals through the dendrites, and under the right conditions, sends an electrical impulse down the axon and out through the terminals.
+            <br>
+            <img src="/images/neuron_biological.jpg" alt="">
+            <br>
+          It is theorized the sequence and timing of these impulses play a large part of how information travels through the brain. Most artificial neural networks have yet to capture this timing aspect of biological neurons, and instead emulate the phenomenon with simpler mathematical formulas.</p>
+        </div>
+
+        <h6>Math</h6>
+        <div class="answer">
+          <p>Computers are built with discrete 0s and 1s whereas humans and animals are built on more continuous building blocks. Because of this, some of the first neurons attempted to mimic biological neurons with a linear regression function: y = mx + b. The x is like information coming in through the dendrites and the y is like the output through the terminals. As the computer guesses more and more answers to the questions we present it, it will update its variables (m and b) to better fit the line to the data it has seen.</p>
+          <br>
+          <img src="/images/neuron_artificial.png" alt="">
+          <br>
+        </div>
+        <br>
+        <h6>Nodes</h6>
+        <div class="answer">
+          <p>The biological neuron is connected in hierarchical networks, with the output of some neurons being the input to others. These networks are represented as a connected layer of nodes. Each node carries multiple weighted inputs and applies to the neuron to the summation of these inputs and generates an output.</p>
+        
+        </div>
+        
+        <h6>Algorithm</h6>
+        <div class="answer">
+          <p>Algorithms are required in the neural network. Biological neurons have self-understanding and working capability, but how an artificial neuron will work in the same way? For this, it is necessary to train our artificial neural network. For this purpose, there are lots of algorithms used. Each algorithm has a different way of working.</p>
+          <br>
+        </div>
+
+        <div class="question">
+          <h4>Neuron Network Layers</h4>          
+        </div>
+        <h6>Neuron</h6>
+        <div class="answer">
+          The commonest type of artificial neural network consists of three groups, or layers, of units: a layer of <b> “input”</b> units is connected to a layer of <b>“hidden”</b> units, which is connected to a layer of <b>“output”</b> units.
+          <ul>
+            <li>Input units:- The activity of the input units represents the raw information that is fed into the network. this also called input layer.</li>
+            <li>Hidden units:- The activity of each hidden unit is determined by the activities of the input units and the weights on the connections between the input and the hidden units. this also called hidden layer.</li>
+            <li>Output units:- The behaviour of the output units depends on the activity of the hidden units and the weights between the hidden and output units. this also called output layer.</li>
+          </ul>
+
+        </div>
+
+        <div class="question">
+          <h4>Application of neural networks?</h4>          
+        </div>
+        
+        <div class="answer">
+          <p>Neural networks, with their remarkable ability to derive meaning from complicated or imprecise data, can be used to extract patterns and detect trends that are too complex to be noticed by either humans or other computer techniques. A trained neural network can be thought of as an “expert” in the category of information it has been given to analyse. 
+            <br>
+            
+            
+            <ul>
+            Applications:-
+              <li>Facial Recognition</li>
+              <li>Stock Market Prediction</li>
+              <li>Social Media Apps (The algorithms which feed people with endless scrolling are heavily based on the neural networks</li>
+              <li>Weather Forecasting</li>
+              <li>Natural Language Processing</li>
+              <li>Pixel Recognition / Analysis</li>
+            </ul>
+          </p>
+          
+          <img src="/images/applications.png" alt="">
+
+        </div>
+
+        <div class="question">
+          <h4>Resources / Further Readings</h4>
+          <div class="answer">
+            <a  target="_blank" href="https://courses.nvidia.com/courses/course-v1:DLI+T-FX-01+V1/" >NVIDIA Build a Brain in 10 minutes</a>
+            <br>
+            <a target="_blank" href="https://developer.nvidia.com/discover/artificial-neural-network">NVIDIA Artificial Neural Networks</a>
+            <br>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Neural_network#Artificial_intelligence">WIKIPEDIA Neural Networks</a>
+            <br>
+            <a target="_blank" href="https://www.ibm.com/cloud/learn/neural-networks">IBM Artificial Neural Networks</a>
+          </div>
+        </div>
+      
+
+
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <center>
+        <a target="_blank" href="https://github.com/GautamPatil1/"><i class="fa-brands fa-github fa-3x"></i></a>
+        <a target="_blank" href="mailto:gautampatil4545@outlook.com"><i class="fa-solid fa-envelope fa-3x"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/gautam-patil-2a5924200/"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+        <a target="_blank" href="#"><i class="fa-brands fa-envira fa-3x"></i></a>
+        </center>
+  
+       </div>
+    
+
+    <div class="footer">
+        <center>© Gautam Patil 2022</center>
+      </div> 
+    <script src="https://kit.fontawesome.com/b53972c862.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

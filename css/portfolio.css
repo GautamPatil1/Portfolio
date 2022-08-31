@@ -1,0 +1,139 @@
+*{
+    color: black;
+}
+.nav-img{
+    height: 25px;
+    width: 25px;
+}
+.name{
+    font-size: 60px;
+    font-family: 'Lora', serif;
+    background-color: transparent;
+    height: 250px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 20px; 
+    padding-bottom: 0px;
+}
+
+.bio{
+    padding: 30px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+}
+
+
+h1{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+ul li a, .projects a, .contact a{
+    color: black;
+    text-decoration: none;
+}
+.skills{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 7.5px;
+
+}
+
+.fa-brands{
+    font-size: large;
+}
+
+.cards{
+    display: none;
+}
+.education{
+    padding-top: 10px;
+    background-color: transparent;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 7.5px;
+}
+.education ul li{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.projects{
+    
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7.5px;
+}
+.project{
+    margin: 25px;
+    border: 2px solid rgb(255, 123, 0);
+    border-radius: 8px;
+    background-color: rgb(217, 217, 217);
+}
+.img{
+    padding: 10px;
+    
+}
+.project-txt{
+    font-size: 20px;
+    background-color: transparent;
+    padding: 10px;
+}
+img{
+    background-color: gray;
+    width: 100%;
+}
+
+.fa-brands, .fa-solid{
+    padding: 18px;   
+}
+
+.footer{
+    background-color: rgb(69, 199, 255);
+    height: 50px;
+    font-size: 20px;
+}
+
+@media (min-width:600px){
+    .name{
+        padding: 100px;
+        padding-right: 50px;
+        margin-top: 150px;
+        font-size: 100px;
+
+    }
+    .bio{
+        padding-left: 150px;
+        text-align: left;
+    }
+    .cards{
+        display: block;
+    }
+    .cards-min{
+        display: none;
+    }
+    .projects{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    img{
+        height: 400px;
+    }
+    .project-min{
+        display: none;
+    }
+    
+    
+    
+}

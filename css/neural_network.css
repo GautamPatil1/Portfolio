@@ -1,0 +1,71 @@
+
+    .top-img{
+        margin-top: 60px;
+    }
+    .top-img img{
+        width: 100%;
+    }
+    .content{
+        background-color: transparent;
+        padding: 10px;
+        
+        
+    }
+    .title{
+        margin-top: 10px;
+        padding: 10px;
+        font-family: 'Poppins', serif;
+        font-size: 40px;
+    }
+    .credit{
+        color: gray;
+        padding-left: 10px;
+    }
+    .question{
+        text-decoration:solid;
+        font-family: 'Lora', serif;
+    }
+    .content h6{
+        text-decoration: underline;
+        
+    }
+    .answer{
+        padding: 10px;
+        font-family: 'Poppins', serif;
+        font-size: 18px;
+    }
+    .content img{
+        width: 100%;
+        border-radius: 25px;
+    }
+    .footer{
+        background-color: rgb(69, 199, 255);
+        height: 50px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .fa-brands, .fa-solid{
+        color: rgb(49, 48, 48);
+        padding: 18px;   
+    }
+    .content a{
+        color: black;
+    }
+
+
+@media (min-width:600px){
+    .top-img{
+        width: 100%;
+        display: none;
+    }
+    
+    .content{
+        margin-top: 100px;
+        background-color: transparent;
+        padding: 25px;
+        border: black solid 2px;
+        border-radius: 25px;
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+}
