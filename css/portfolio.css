@@ -104,7 +104,9 @@ img{
     height: 50px;
     font-size: 20px;
 }
-
+.project-max{
+    display:none;
+}
 @media (min-width:600px){
     .name{
         padding: 100px;
@@ -132,6 +134,9 @@ img{
     }
     .project-min{
         display: none;
+    }
+    .project-max{
+        display: inline-block;
     }
     
     
