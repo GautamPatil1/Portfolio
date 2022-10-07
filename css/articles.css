@@ -15,6 +15,7 @@
     border-radius: 5px;
 }
 .article{
+    margin: 10px;
     background-color: transparent;
     padding: 10px;
     border:  2px solid black;
